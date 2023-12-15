@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+}
+body {
+  background-color: #5e5e5e;
+}
+
+.card{
+  background-color: #ffffff;
+  border: solid 3px;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  height: auto;
+  min-height: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  content: center;
+  white-space: pre-line;
+}
+
+.cardtext {
+  font-size: 25px;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-grid{
+  align-content: center;
+  justify-content: center;
+}
+
+.settings{
+  background-color: #fff;
+  padding: 10px; 
+}
+
+main {
+  justify-content: center;
+  align-content: center;
+}
